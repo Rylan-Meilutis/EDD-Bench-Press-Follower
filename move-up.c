@@ -5,6 +5,7 @@
 #define NUM_THREADS 1
 bool moveUp = false;
 float sv = 0;
+task wait();
 
 task wait () {
     float oldValue = 0;
